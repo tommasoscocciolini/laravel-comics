@@ -30,6 +30,11 @@ header{
         li{
           cursor: pointer;
           border-bottom: 3px solid #ffff ;
+          a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+          }
         }
         li.text{
           padding: 41px 0;

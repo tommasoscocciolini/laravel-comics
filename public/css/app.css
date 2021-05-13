@@ -56,6 +56,12 @@ header .container-big .container-nav ul li {
   border-bottom: 3px solid #ffff;
 }
 
+header .container-big .container-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 header .container-big .container-nav ul li.text {
   padding: 41px 0;
 }
@@ -140,7 +146,7 @@ header .jumbo {
 
 .main-infos .bluebar img {
   position: absolute;
-  left: 20%;
+  left: 10%;
   top: -220px;
 }
 
@@ -150,7 +156,6 @@ header .jumbo {
   margin: 0 auto;
   position: relative;
   display: flex;
-  flex-direction: column;
 }
 
 .main-infos .container-infos .left-main {
@@ -184,7 +189,7 @@ header .jumbo {
 
 .main-infos .container-infos .right-adv {
   height: 200px;
-  width: 20%;
+  width: 40%;
 }
 
 .main-infos .container-infos h2 {
@@ -192,8 +197,69 @@ header .jumbo {
   color: #1089F8;
 }
 
+.main-infos .container-infos-specs {
+  background-color: lightgray;
+}
+
+.main-infos .container-infos-specs .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.main-infos .container-infos-specs .container .left-specs {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-infos .container-infos-specs .container .left-specs .specs-names {
+  display: flex;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.main-infos .container-infos-specs .container .left-specs .specs-names .spec-title {
+  width: 25%;
+}
+
+.main-infos .container-infos-specs .container .left-specs .specs-names .artists {
+  width: 75%;
+}
+
+.main-infos .container-infos-specs .container .right-specs {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-infos .container-infos-specs .container .right-specs .specs-names {
+  display: flex;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.main-infos .container-infos-specs .container .right-specs .specs-names .spec-title {
+  width: 25%;
+}
+
+.main-infos .container-infos-specs .container .right-specs .specs-names .artists {
+  width: 75%;
+}
+
 footer {
   height: 400px;
-  background-color: grey;
+}
+
+footer .footer-top {
+  height: 80%;
+}
+
+footer .footer-bot {
+  height: 20%;
+  background-color: gray;
 }
 

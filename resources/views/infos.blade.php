@@ -21,10 +21,63 @@
     </div>
     <div class="right-adv">
       <span>ADVERTISEMENT</span>
-      <img src="../img/adv.jpg" alt="">
+      <img src="img/adv.jpg" alt="">
     </div>
+  </div>
 
-
+  <div class="container-infos-specs">
+    <div class="container">
+      <div class="left-specs">
+        <h2>Talent</h2>
+        <div class="specs-names">
+          <div class="spec-title">
+            <span>Art by:</span>
+          </div>
+          <div class="artists">
+            @foreach ($comic['artists'] as $artist)
+            <a href="#">{{$artist}}</a>
+            @endforeach
+          </div>
+        </div>
+        <div class="specs-names">
+          <div class="spec-title">
+            <span>Written by:</span>
+          </div>
+          <div class="artists">
+            @foreach ($comic['writers'] as $writer)
+            <a href="#">{{$writer}}</a>
+            @endforeach
+          </div>
+        </div>
+      </div>
+      <div class="right-specs">
+        <h2>Specs</h2>
+        <div class="specs-names">
+          <div class="spec-title">
+            <span>Series:</span>
+          </div>
+          <div class="artists">
+            <a href="#">{{$comic['series']}}</a>
+          </div>
+        </div>
+        <div class="specs-names">
+          <div class="spec-title">
+            <span>U.S. Price: </span>
+          </div>
+          <div class="artists">
+            <a href="#">{{$comic['price']}}</a>
+          </div>
+        </div>
+        <div class="specs-names">
+          <div class="spec-title">
+            <span>On Sale Date: </span>
+          </div>
+          <div class="artists">
+            <a href="#">{{$comic['sale_date']}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 @endsection

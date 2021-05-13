@@ -7,7 +7,7 @@
     position: relative;
     img{
       position: absolute;
-      left: 20%;
+      left: 10%;
       top: -220px;
     }
   }
@@ -17,7 +17,6 @@
     margin: 0 auto;
     position: relative;
     display: flex;
-    flex-direction: column;
     .left-main{
       width: 60%;
       .green-bar{
@@ -45,12 +44,55 @@
     }
     .right-adv{
       height: 200px;
-      width: 20%;
+      width: 40%;
     }
     h2{
       margin-top: 50px;
       color: #1089F8;
     }
 
+  }
+  .container-infos-specs{
+    background-color: lightgray;
+    .container{
+      width: 80%;
+      margin: 0 auto;
+      padding: 25px 0;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      .left-specs{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        .specs-names{
+          display: flex;
+          width: 100%;
+          padding-top: 25px;
+          .spec-title{
+            width: 25%;
+          }
+          .artists{
+            width: 75%;
+          }
+        }
+      }
+      .right-specs{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        .specs-names{
+          display: flex;
+          width: 100%;
+          padding-top: 25px;
+          .spec-title{
+            width: 25%;
+          }
+          .artists{
+            width: 75%;
+          }
+        }
+      }
+    }
   }
 }

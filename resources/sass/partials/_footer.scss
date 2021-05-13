@@ -1,4 +1,10 @@
 footer{
   height: 400px;
-  background-color: grey;
+  .footer-top{
+    height: 80%;
+  }
+  .footer-bot{
+    height: 20%;
+    background-color: gray;
+  }
 }

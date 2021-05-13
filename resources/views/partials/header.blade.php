@@ -8,17 +8,17 @@
   <div class="container-big">
     <div class="container-nav">
       <ul>
-        <li> <img src="img/dc-logo.png" alt=""> </li>
-        <li class="text">CHARACTERS</li>
-        <li class="text active">COMICS</li>
-        <li class="text">MOVIES</li>
-        <li class="text">TV</li>
-        <li class="text">GAMES</li>
-        <li class="text">COLLECTIBLES</li>
-        <li class="text">VIDEOS</li>
-        <li class="text">FANS</li>
-        <li class="text">NEWS</li>
-        <li class="text">SHOP</li>
+        <li> <img src="/img/dc-logo.png" alt=""> </li>
+        <li class="text"><a href="/">CHARACTERS</a></li>
+        <li class="text active"><a href="/">COMICS</a></li>
+        <li class="text"><a href="/">MOVIES</a></li>
+        <li class="text"><a href="/">TV</a></li>
+        <li class="text"><a href="/">GAMES</a></li>
+        <li class="text"><a href="/">COLLECTIBLES</a></li>
+        <li class="text"><a href="/">VIDEOS</a></li>
+        <li class="text"><a href="/">FANS</a></li>
+        <li class="text"><a href="/">NEWS</a></li>
+        <li class="text"><a href="/">SHOP</a></li>
         <li>
           <input type="text" name="search" value="" placeholder="Search">
         </li>
