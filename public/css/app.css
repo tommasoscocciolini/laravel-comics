@@ -2,6 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-caps {
+  text-transform: uppercase;
+}
+
+.text-white {
+  color: #ffff;
+}
+
+.text-green {
+  color: lightgreen;
 }
 
 header .container {
@@ -40,6 +53,7 @@ header .container-big .container-nav ul {
 
 header .container-big .container-nav ul li {
   cursor: pointer;
+  border-bottom: 3px solid #ffff;
 }
 
 header .container-big .container-nav ul li.text {
@@ -65,5 +79,121 @@ header .container-big .container-nav ul li input {
 header .jumbo {
   width: 100%;
   height: 400px;
+}
+
+.home-main {
+  background-color: #1C1C1C;
+}
+
+.home-main .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  position: relative;
+}
+
+.home-main .container .over-text {
+  position: absolute;
+  top: -7%;
+  left: 5%;
+  width: 300px;
+  height: 80px;
+  background-color: #1089F8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-main .container .over-text h1 {
+  color: #ffff;
+}
+
+.home-main .container .card {
+  width: calc(100%/6 - 20px);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-main .container .card h5 {
+  color: #ffff;
+  margin-top: 10px;
+}
+
+.home-main .container button.btn-page-blue {
+  background-color: #1089F8;
+  color: #ffff;
+  border: none;
+  padding: 10px 30px;
+  margin-bottom: 25px;
+  font-size: 1.2em;
+}
+
+.main-infos .bluebar {
+  height: 100px;
+  background-color: #1089F8;
+  position: relative;
+}
+
+.main-infos .bluebar img {
+  position: absolute;
+  left: 20%;
+  top: -220px;
+}
+
+.main-infos .container-infos {
+  background-color: #ffff;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-infos .container-infos .left-main {
+  width: 60%;
+}
+
+.main-infos .container-infos .left-main .green-bar {
+  height: 50px;
+  background-color: green;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 25px;
+}
+
+.main-infos .container-infos .left-main .green-bar .left-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.main-infos .container-infos .left-main p.desc {
+  margin: 20px 0;
+  color: gray;
+}
+
+.main-infos .container-infos .right-adv {
+  height: 200px;
+  width: 20%;
+}
+
+.main-infos .container-infos h2 {
+  margin-top: 50px;
+  color: #1089F8;
+}
+
+footer {
+  height: 400px;
+  background-color: grey;
 }
 

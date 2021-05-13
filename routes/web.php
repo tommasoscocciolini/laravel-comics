@@ -18,3 +18,8 @@ Route::get('/', function () {
 
     return view('home')->with('comics', $comics);
 });
+
+Route::get('/infos/{id}', function ($id) {
+  $comics = config('comics');
+    return view('infos')->with('comic', $comics[$id]);
+})->name('detail');

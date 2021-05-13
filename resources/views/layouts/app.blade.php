@@ -7,7 +7,8 @@
         <title>Laravel Comics</title>
         <link rel="stylesheet" href="/css/app.css">
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
 
         <!-- Styles -->
 
@@ -16,9 +17,9 @@
 
       @include('partials.header')
 
-      <main>
+
         @yield('content-main')
-      </main>
+
 
       @include('partials.footer')
 
